@@ -19,10 +19,10 @@ public class UserController {
         return us.registerUser(name, email);
     }
 
-    @PostMapping("registerUserBody")
-    @ResponseStatus(HttpStatus.CREATED)
-    public UserDetails confirmUser(@RequestBody UserDetails userDetails){
+    //@PostMapping("registerUserBody")
+    //@ResponseStatus(HttpStatus.CREATED)
+    //public UserDetails confirmUser(@RequestBody UserDetails userDetails){
 
         //return us.userDetails();
-    }
+   // }
 }
